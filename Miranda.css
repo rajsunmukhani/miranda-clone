@@ -1,13 +1,37 @@
+/* DOMAIN FONT */
 @font-face {
-    font-family: domain;
-    src: url(domain.ttf);
+    font-family: "domain";
+    src: url("./fonts/domain.ttf") format("truetype");
+    font-weight: normal;
 }
+
+/* canopee FONT */
+@font-face {
+    font-family: "canopee";
+    src: url("./fonts/canopee.ttf") format("truetype");
+    font-weight: normal;
+}
+
+/* voyage REGULAR */
+@font-face {
+    font-family: "voyage";
+    src: url("./fonts/voyage-Regular.ttf") format("truetype");
+    font-weight: 400;
+}
+
+/* voyage BOLD */
+@font-face {
+    font-family: "voyage";
+    src: url("./fonts/voyage-Bold.ttf") format("truetype");
+    font-weight: 700;
+}
+
 
 *{
    margin : 0;
    padding: 0;
    box-sizing : border-box;
-   font-family: domaine;
+   font-family: domain;
 }
 
 html,body{
@@ -211,7 +235,7 @@ img{
     line-height: 140px;
     font-size : 115px;
     text-align: center;
-    font-family: Canopee;
+    font-family: canopee;
     font-weight: 100;
 }
 
@@ -230,7 +254,7 @@ img{
 #left p{
     margin-top: 20px;
     font-size: 40px;
-    font-family: Domain;
+    font-family: domain;
     font-weight: 100;
     color: #6E6A63;
     width: 104%;
@@ -267,7 +291,7 @@ img{
     width: 95%;
     line-height: 100px;
     font-size: 110px;
-    font-family: Canopee;
+    font-family: canopee;
     color: #67625c;
 }
 
@@ -345,7 +369,7 @@ img{
 
 #p4-leftTopLeft p{
 
-    font-family: domaine;
+    font-family: domain;
     font-size: 40px;
     font-weight: 100;
     line-height: 39px;
@@ -417,7 +441,7 @@ img{
 #page4-right>h1{
     font-size: 105px;
     text-align: center;
-    font-family: Canopee;
+    font-family: canopee;
     line-height: 120px;
 }
 
@@ -429,7 +453,7 @@ img{
 #page4-right span{
     background-color: #67625c;
     font-size: 90px;
-    font-family: Voyage;
+    font-family: voyage;
     color: #C3BBB2;
     font-weight: 900;
 }
@@ -476,7 +500,7 @@ img{
 #tap>h1{
     font-size: 80px;
     font-weight: 700;
-    font-family: Canopee;
+    font-family: canopee;
     transform: translateX(-30%);
     transition: all ease 0.5s;
 }
@@ -508,28 +532,28 @@ img{
 #page5 h4{
     width: 100%;
     white-space: nowrap;    
-    font-family: Domain;
+    font-family: domain;
     font-weight: 200;
     
 }
 
 #t1 h4:nth-child(2){
-    font-family: Canopee;
+    font-family: canopee;
     font-size: 80px;
     font-weight: 500;
 }
 #t2 h4:nth-child(2){
-    font-family: Canopee;
+    font-family: canopee;
     font-size: 80px;
     font-weight: 500;
 }
 #t3 h4:nth-child(2){
-    font-family: Canopee;
+    font-family: canopee;
     font-size: 80px;
     font-weight: 500;
 }
 #t4 h4:nth-child(2){
-    font-family: Canopee;
+    font-family: canopee;
     font-size: 80px;
     font-weight: 500;
 }
@@ -568,7 +592,7 @@ img{
     font-size: 485px;
     font-weight: 400;
     letter-spacing: -20px;
-    font-family: Canopee;
+    font-family: canopee;
     line-height: 380px;
 }
 
@@ -606,7 +630,7 @@ img{
     font-size: 450px;
     font-weight: 400;
     letter-spacing: -20px;
-    font-family: Canopee;
+    font-family: canopee;
     line-height: 400px;
 }
 
@@ -617,7 +641,7 @@ img{
 }
 
 #p7-bottom h1{
-    font-family: Canopee;
+    font-family: canopee;
     font-size: 360px;
     font-weight: 300;
     background-color: black;
@@ -628,7 +652,7 @@ img{
 }
 
 #p7-bottom p{
-    font-family: Domain;
+    font-family: domain;
     color: #67625c;
     width: 40%;
     font-weight: 100;
@@ -639,7 +663,7 @@ img{
 
 #p7-bottom span{
     line-height: 120px;
-    font-family: Canopee;
+    font-family: canopee;
     font-size: 120px;
 }
 
@@ -669,7 +693,7 @@ img{
     padding: 30px 0;
     font-size: 100px;
     font-weight: 100;
-    font-family: domaine;
+    font-family: domain;
     letter-spacing: -4px;
     display: inline-block;
     /* background-color: red; */
@@ -716,7 +740,7 @@ img{
 }
 
 #foot-left h6{
-    font-family: Canopee;
+    font-family: canopee;
     font-size: 25px;
     font-weight: 100;
     margin-left: 20px;
@@ -729,7 +753,7 @@ img{
 }
 
 #foot-right a{
-    font-family: Canopee;
+    font-family: canopee;
     font-weight: 400;
     color: black;
     text-decoration: none;
@@ -738,7 +762,7 @@ img{
 }
 
 #foot-left h6:nth-child(3){
-    font-family: domaine;
+    font-family: domain;
     color: #6E6A63;
     letter-spacing: -2px;
 }
